@@ -1090,6 +1090,7 @@ reexecute:
           case ' ':
             break;
           default:
+            break;
             SET_ERRNO(HPE_INVALID_CONSTANT);
             goto error;
         }
